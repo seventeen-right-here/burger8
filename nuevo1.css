@@ -1,0 +1,53 @@
+
+input {
+     width: 100%; 
+     padding: 10px;
+     border: 1px solid #ccc;
+    }
+    .background {
+        background-color: rgb(212, 69, 13);
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    font-size:1rem;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    
+    }
+    
+    /* Estilos para la barra de navegación superior */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent; /* Fondo transparente para que la imagen de fondo sea visible */
+        padding: 10px;
+        position: relative; /* Barra de navegación fija en la parte superior */
+        width: 100%; /* Ancho completo */
+        
+    }
+    
+    .burger-king-logo img {
+        max-width: 100px; /* Tamaño del logo de Burger King */
+        border-radius: 30px;
+    
+    }
+    
+    .social-icons {
+        display: flex;
+        border-radius: 5px;
+    
+    }
+    
+    .social-icons a {
+        margin-right: 20px;
+        
+    
+    }
+    
+    .social-icons a img {
+        width: 50px;
+        border-radius: 30px;
+    
+    }
+    

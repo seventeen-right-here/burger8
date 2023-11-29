@@ -1,0 +1,154 @@
+/* Estilos para el fondo completo */
+.background {
+    background-image: url('diseño\ pagina/1695047163117.jpg'); /* Cambia 'fondo.jpg' por la imagen de fondo deseada */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Estilos para la barra de navegación superior */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; /* Fondo transparente para que la imagen de fondo sea visible */
+    padding: 10px;
+    position: relative; /* Barra de navegación fija en la parte superior */
+    width: 100%; /* Ancho completo */
+    
+}
+
+.burger-king-logo img {
+    max-width: 100px; /* Tamaño del logo de Burger King */
+    border-radius: 30px;
+
+}
+
+.social-icons {
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.social-icons a {
+    margin-right: 20px;
+    
+
+}
+
+.social-icons a img {
+    width: 50px;
+    border-radius: 30px;
+
+}
+
+/* Estilos para el menú con índices */
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para los índices */
+    border-radius:30px;
+    padding: 20px;
+   
+
+}
+
+.menu li {
+    margin:10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Texto en negrita para los índices */
+}
+
+/* Estilos para los índices cuando se activan */
+.menu a:hover {
+    background-color: #ffcc00; /* Cambia el fondo al pasar el mouse */
+    color: #333; /* Cambia el color del texto al pasar el mouse */
+    border-radius: 5px;
+
+}
+
+/* Estilos para el contenido central */
+.content {
+    text-align: center;
+    padding: 100px 0; /* Espacio superior e inferior para el contenido central */
+}
+
+.center-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el texto en la parte inferior */
+.bottom-text {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto inferior */
+    color: #fff;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    padding: 20px;
+}
+.bottom-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Los elementos se colocarán en filas cuando el espacio sea insuficiente */
+}
+
+.bottom-menu li {
+    text-align: center;
+    width: 15%; /* Cada elemento ocupa el 25% del ancho en pantallas grandes */
+    padding: 10px;
+}
+
+.bottom-menu img {
+    /* Estilos para las imágenes en la sección inferior */
+    max-width: 100%; /* Las imágenes se ajustarán al ancho de su contenedor */
+    height: auto; /* Evita la distorsión de las imágenes */
+transition: transform 0.3ms;
+    
+}
+.bottom-menu img:hover {
+    transform:scale(1.2);
+    
+}
+
+
+.bottom-menu button {
+    background-color: #ffcc00; /* Color de fondo del botón "Ver" */
+    color: #333; /* Color del texto del botón "Ver" */
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px; /* Espacio entre la imagen y el botón */
+
+}
+
+/* Estilos para el texto en la parte inferior */
+.bottom-text {
+    text-align: center;
+    margin-top: 10px; /* Espacio entre las imágenes y el texto */
+}
+
+.hamburger { 
+    position: fixed;
+     top: 0; 
+     right: 0;
+      width: 30px;
+       height: 30px;
+        background-color: #000; 
+        border-radius: 50%; }
+ .hamburger .line { 
+    width: 15px;
+     height: 2px;
+      background-color: #fff;
+       margin-top: 5px; }
+
+
